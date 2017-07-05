@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app>
 	<display-name>Archetype Created Web Application</display-name>
-	<!-- needed for ContextLoaderListener -->
+	<!-- needed for ContextLoaderListener
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>location</param-value>
 	</context-param>
 
-	<!-- Bootstraps the root web application context before servlet initialization -->
+	Bootstraps the root web application context before servlet initialization
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener
 		</listener-class>
-	</listener>
+	</listener>  -->
 	<!-- The front controller of this Spring Web application, responsible for 
 		handling all application requests -->
 	<servlet>
@@ -20,7 +20,7 @@
 		</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>location</param-value>
+			<param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
