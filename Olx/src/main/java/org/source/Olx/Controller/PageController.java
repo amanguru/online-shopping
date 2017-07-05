@@ -9,7 +9,7 @@ public class PageController {
 	@RequestMapping("home.htm")
     public ModelAndView index(){
 		ModelAndView mav=new ModelAndView();
-		mav.setViewName("page");
+		mav.setViewName("page1");
     	return mav;
     }
 }
