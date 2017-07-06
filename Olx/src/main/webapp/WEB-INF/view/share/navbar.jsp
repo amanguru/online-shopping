@@ -20,10 +20,11 @@
 				<li id="about">
 				<a href="${contextRoot}/about">About</a>
 				</li>
-				<li id="listproduct">
-				<a href="${contextRoot}/listProducts">View Product</a>
-				</li>
 				<li id="contact"><a href="${contextRoot}/contact">Contact</a></li>
+				
+				<li id="listproduct">
+				<a href="${contextRoot}/show/all/products">View Products</a>
+				</li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
