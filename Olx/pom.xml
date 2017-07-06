@@ -14,7 +14,8 @@
 	</properties>
 
 	<dependencies>
-	<!-- link backend project -->
+
+		<!-- link backend project -->
 		<dependency>
 			<groupId>org.source</groupId>
 			<artifactId>shoppingbackend</artifactId>
@@ -45,8 +46,8 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-
-
+		
+		
 		<!-- CGLib for @Configuration -->
 		<dependency>
 			<groupId>cglib</groupId>
