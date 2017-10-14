@@ -29,7 +29,7 @@ public class PageController {
 		ModelAndView mav=new ModelAndView();
 		mav.addObject("title","about-us");
 		mav.addObject("userClickAbout",true);
-		mav.setViewName("paga");
+		mav.setViewName("page");
     	return mav;	
 	}
 	@RequestMapping("/contact")
