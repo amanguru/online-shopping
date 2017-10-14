@@ -37,6 +37,7 @@ public class HibernateConfig {
 	public SessionFactory getSessionFactory(DataSource datasource) {
 		LocalSessionFactoryBuilder builder = new LocalSessionFactoryBuilder(datasource);
 		builder.addProperties(getHibernateProperites());
+		builder.scanPackages("org.source.shoppingbackend.bo");
 		builder.scanPackages("org.source.shoppingbackend.dto");
 		return builder.buildSessionFactory();
 
